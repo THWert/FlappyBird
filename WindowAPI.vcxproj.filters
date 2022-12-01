@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Systems\Window.h" />
+    <ClInclude Include="Systems\Keyboard.h" />
+    <ClInclude Include="Systems\Mouse.h" />
+    <ClInclude Include="Utilities\SingletonBase.h" />
+    <ClInclude Include="Utilities\Vector3.h" />
+    <ClInclude Include="Utilities\ResourceManager.h" />
+    <ClInclude Include="Systems\Timer.h" />
+    <ClInclude Include="Program.h" />
+    <ClInclude Include="Utilities\BoundingBox.h" />
+    <ClInclude Include="Geometries\Quad.h" />
+    <ClInclude Include="Geometries\Wall.h" />
+    <ClInclude Include="Geometries\JumpingQuad.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Systems\Keyboard.cpp" />
+    <ClCompile Include="Systems\Mouse.cpp" />
+    <ClCompile Include="Systems\Window.cpp" />
+    <ClCompile Include="Utilities\Vector3.cpp" />
+    <ClCompile Include="Utilities\ResourceManager.cpp" />
+    <ClCompile Include="Systems\Timer.cpp" />
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Utilities\BoundingBox.cpp" />
+    <ClCompile Include="Geometries\Quad.cpp" />
+    <ClCompile Include="Geometries\Wall.cpp" />
+    <ClCompile Include="Geometries\JumpingQuad.cpp" />
+  </ItemGroup>
+</Project>
